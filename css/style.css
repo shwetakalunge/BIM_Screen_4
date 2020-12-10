@@ -8,3 +8,103 @@
 .loginarea{
     background-color: aquamarine
 }
+
+.clearfix {
+    zoom: 1
+}
+
+html,
+body {
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+   
+}
+
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden
+}
+@font-face {
+    font-family: saira-bold;
+    src: url(Saira-Bold.ttf)
+}
+
+@font-face {
+    font-family: saira-regular;
+    src: url(Saira-Regular.ttf)
+}
+
+
+h1 {
+   font-family: saira-bold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 26px;
+}
+
+h2 {
+   font-family: saira-regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #767676;
+}
+
+.login-box {
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 10px;
+    padding: 4px 0;
+    margin: 10px 0;
+    border-bottom: 2px solid #9D9FA1
+}
+
+.textbox input {
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 20px;
+    width: 100%;
+    margin: 5px;
+   font-family: saira-regular;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.btn {
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+    margin: 12px 0;
+    font-family: saira-regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+label {
+    font-family: saira-regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 00px;
+    color: #7E7E7E;
+
+}
+.logo_class{
+    width: 100px;
+height: 113px;
+}
